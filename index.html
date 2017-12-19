@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" media="screen" href="https://cdn.shopify.com/assets2/application-be4634b02d2ec2a50e944010b8f1bf8240c9c85b19815de931f9eadece7c6f22.css">
+        <link rel="stylesheet" media="screen" href="./index.css">
+        <script type="text/javascript" src="./index.js"></script>
+    </head>
+    <body>
+        <div id="PageContainer">
+            <main role="main" id="Main">
+                <div class="page-block background-lowlight color-white">
+                    <div class="page-width">
+                        <h1 id="main-title">Stay up to date with ecommerce trends with Shopify's newsletter</h1>
+                        <div class="green-line"></div>
+                        <div class="section-block">
+                        <section class="card__main">
+                            <div class="row">
+                                <p>Subscribe for free marketing tips.</p>
+                            </div>
+                            <div class="row">
+                                <div class="marketing-input-wrapper marketing-input-button-pair">
+                                    <div class="marketing-input-button__field-wrapper">
+                                        <label class="marketing-input-button-pair__input"><span class="marketing-label marketing-label--in-field marketing-label--floating">Email</span><input placeholder="Enter your email address" class="marketing-input-button-pair__input marketing-input marketing-input--floating" type="email" name="signup[email]" id="email"></label>
+                                        <div class="marketing-select-wrapper">
+                                            <select name="interestedIn" id="interests">
+                                                <option value="">Interested in...</option>
+                                                <option data-index="0" value="Sugar">Sugar</option>
+                                                <option data-index="1" value="Spice">Spice</option>
+                                                <option data-index="2" value="Everything nice">Everything nice</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" id="error">
+                            </div>
+                            <div class="row">
+                                <button name="button" type="submit" class="marketing-button marketing-button--block marketing-form__button gutter-bottom" onClick="signup()">Sign up now</button>
+                            </div>
+                        </section>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <footer class="footer--main text-center color-white" role="contentinfo">
+            <div class="section-block">
+                <button class="link"><u>Unsubscribe</u></button>
+            </div>
+        </footer>
+    </body>
+</html>

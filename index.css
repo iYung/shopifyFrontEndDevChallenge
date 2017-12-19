@@ -1,0 +1,17 @@
+body {
+    background-color: #000639;
+}
+
+.green-line {
+    width: 40px;
+    height: 4px;
+    background-color: #7AB55C;
+}
+
+#main-title {
+    color: #FFFFFF;
+}
+
+#error {
+    color: #C23628;
+}
